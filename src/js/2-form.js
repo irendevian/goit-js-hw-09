@@ -52,7 +52,7 @@ function getFormData() {
 getFormData();
 console.log(formData);
 
-// -------------
+// --------------
 
 function handleSubmit(event) {
     event.preventDefault();
