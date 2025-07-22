@@ -1,0 +1,51 @@
+.gallery {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-item {
+  list-style: none;
+  padding: 0;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.03);
+}
+
+/* .modal img {
+  max-width: 1112px;
+  max-height: 600px;
+} */
+
+.sl-wrapper {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+.sl-image img {
+  max-width: 1112px;
+  max-height: 600px;
+}
+
+.sl-wrapper .sl-counter {
+  color: #fff !important;
+}
+
+.sl-wrapper .sl-navigation button {
+  color: #fff !important;
+}
+
+.sl-wrapper .sl-close {
+  color: #fff !important;
+}
