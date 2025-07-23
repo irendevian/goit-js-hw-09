@@ -63,6 +63,14 @@ const images = [
   },
 ];
 
+// document.addEventListener("DOMContentLoaded", () => {
+//    const gallery = document.querySelector(".gallery");
+//    if (!gallery) {
+//       return;
+//    }
+
+//    gallery.insertAdjacentHTML("beforeend", createMarkup(images));
+// })
 
 const gallery = document.querySelector(".gallery");
 
