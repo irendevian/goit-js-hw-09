@@ -50,7 +50,6 @@ function getFormData() {
 }
 
 getFormData();
-console.log(formData);
 
 // --------------
 
@@ -59,11 +58,14 @@ function handleSubmit(event) {
 
     if (textarea.value === "" || input.value === "") {
         alert("Fill please all fields");
+        return;
     }
 
 
     event.currentTarget.reset();
     localStorage.removeItem(storageKey);
+    formData.email = "";
+    formData.message = "";
 
 };
 
